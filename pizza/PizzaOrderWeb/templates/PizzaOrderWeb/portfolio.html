@@ -1,0 +1,214 @@
+{% extends 'PizzaOrderWeb/base.html' %}
+{% block 'body' %}
+
+{% load staticfiles %}
+
+    <html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <link rel="stylesheet" href="{% static 'CSS/styles.css' %}?{% now 'U'%}" type="text/css">
+        <title>Portfolio</title>
+
+    </head>
+    <body>
+    <!-- // Intro -->
+    <header>
+
+        <div class="content-wrap">
+            <img class="profile-img column-narrow" src="{% static 'Lundy Pic.jpeg' %}" alt="Lundy NUTH">
+            <div class="column-wide">
+                <h1>Lundy NUTH</h1>
+                <h2>Web Developer + Instructor</h2>
+                <p>As a developer, I specialize in creating modular and scalable front-end architectures. As an
+                    educator, I always provide authentic and practical lessons.
+                    I'm also a full-time Instructor at <a href="https://www.puc.edu.kh" target="_blank">Panasastra
+                        University of Cambodia.</a></p>
+            </div>
+        </div>
+    </header>
+    <main>
+        <!-- // Work Experience -->
+        <section class="work">
+            <div class="content-wrap">
+                <h2>Work Experience</h2>
+
+                <!-- Job 1 Details -->
+                <div class="column-narrow">
+                    <h3>Instructor & Freelance Web Developer</h3>
+                    <p>Independent / Freelance</p>
+                    <p>April 2015 - Present</p>
+                </div>
+                <div class="column-wide">
+                    <p>Provides various front-end related services ranging from development work, consultations,
+                        speaking engagements, corporate training, workshops and online courses.</p>
+                    <p>See more at <a href="http://activateyourtech.com" target="_blank">activateyourtech.com</a>.</p>
+                    <p>Diverse skills in teaching, counseling, tutoring, writing exams, conducting research and
+                        developing learning program projects (LMS) as well as a curriculum in a relation with English
+                        language</p>
+                    <p>Key contributions:</p>
+                    <ul>
+                        <li>Write exams for all the campuses.</li>
+                        <li>Tutor students who are weak and counsel students who wish to seek for advice</li>
+                        <li>Assign Weekly Writing Homework as well as presentation and grade Students’ exam paper.</li>
+                        <li>Provide feedback before and after every exam and offer advice toward their language
+                            learning progress and morality
+                        <li>Encouraging them to learn and keep practicing.</li>
+                        <li>Attend the teachers’ meetings and workshops to improve the quality of English teaching</li>
+                        <li>Design some quizzes, mock exams for a certain program at PUC</li>
+                        <li>Report students’ problems to Management Team</li>
+                        <li>Conduct the series of workshop for teachers to enhance the quality of teaching</li>
+                        <li>Conduct research with a technical team to revive the curriculum and recommend for the
+                            change
+                        </li>
+                        <li>Develop the project of online course platform and will propose this to the Dean and
+                            management team by using Language Management System (LMS)
+                        </li>
+                    </ul>
+                </div>
+
+                <!-- Job 2 Details -->
+                <div class="column-narrow">
+                    <h3>Part-Time Instructor of English, Pannasastra University of Cambodia</h3>
+                    <p>Jan 2010 - April 2015</p>
+                </div>
+                <div class="column-wide">
+                    <p>Key contributions:</p>
+                    <ul>
+                        <li>Teach the assigned classes with different levels and programs.</li>
+                        <li>Assign weekly writing homework as well as other homework.</li>
+                        <li>Attend workshop conducted by the management.</li>
+                        <li>Report the matters to the management.</li>
+                        <li>Participate the teachers’ meeting.</li>
+                        <li>Help students’ learning progress.</li>
+                    </ul>
+                </div>
+
+
+                <!-- Job 3 Details -->
+                <div class="column-narrow">
+                    <h3>IT Support Executive, MobilityOne Cambodia</h3>
+                    <p>Feb 2010 - July 2010</p>
+                </div>
+                <div class="column-wide">
+                    <p>Centralize data between a series of banks and telephone companies by using E-voucher.</p>
+                    <p>Key contributions:</p>
+                    <ul>
+                        <li>Surveying and marketing the use of Telco’s promotions (Helloaxiata)</li>
+                        <li>Technical sales through the product of E-voucher.</li>
+                    </ul>
+                </div>
+
+                <!-- Job 4 Details -->
+                <div class="column-narrow">
+                    <h3>IT Support, S.I Computer Technology</h3>
+                    <p>June 2009 - Feb 2010</p>
+                </div>
+                <div class="column-wide">
+                    <p>Support technical network as well as internet connections.</p>
+                    <p>Key contributions:</p>
+                    <ul>
+                        <li>Both internal and external maintenance (LAN and WAN)</li>
+                        <li>Implement as well as troubleshooting on Wimax and Fiber Optic</li>
+                        <li>Monitor subscribers’ Wimax connections</li>
+                        <li>Monitor internet connections through Cisco ASA 5505</li>
+                        <li>Monitor Base Sectors connections</li>
+                    </ul>
+                    <p>See my complete work history on <a href="https://www.linkedin.com/in/lundy nuth/"
+                                                          target="_blank">LinkedIn</a>.</p>
+                </div>
+            </div>
+        </section>
+
+        <section class="education">
+            <div class="content-wrap">
+                <h2>Education</h2>
+
+                <!-- School 1 details. -->
+                <h3>Institute of Foreign Languages, Phnom Penh</h3>
+                <p>Bachelor Degree of Education (B.Ed), 2009</p>
+                <p>4-year full-time program.</p>
+
+                <!-- School 2 details. -->
+                <h3>Norton University, Phnom Penh</h3>
+                <p>Bachelor Degree of Computer Science (Bsc), 2008</p>
+                <p>4-year full-time program.</p>
+            </div>
+        </section>
+
+        <section class="education">
+            <div class="content-wrap">
+                <h2>SHORT-COURSE TRAINING</h2>
+                <!-- Course 1 details. -->
+                <h3>Fiber Optic Training, Vietnam</h3>
+                <p>3-day full-time training.</p>
+                <!-- Course 2 details. -->
+                <h3>E-voucher System Training, Malaysia</h3>
+                <p>1-month full-time training.</p>
+                <!-- Online Course 3 details. -->
+                <h3>Online Course, Lynda.com</h3>
+                <p>2018</p>
+                <ul>
+
+                    <li>Certificate of Completion on Product Management: Building a Product Strategy
+                        <br>
+                        Certificate No: 36E8373A067643E8A7D90DD3D3B6F6CB
+                    <a href="https://www.lynda.com/home/CertificateOfCompletion/PrintCertificate.aspx?lpk57=36E8373A067643E8A7D90DD3D3B6F6CB">View Certificate</a>
+                    </li>
+
+                    <li>Certificate of Completion on Technology for Product Managers
+                        <br>
+                        Certificate No: CDB85E6887244D2C811DC922D72A5888
+                        <a href="https://www.lynda.com/home/CertificateOfCompletion/PrintCertificate.aspx?lpk57=CDB85E6887244D2C811DC922D72A5888">View Certificate</a>
+                    </li>
+                    <li>Certificate of Completion on Project Management Foundations: Small Projects
+                        <br>
+                        Certificate No: 571693B493984560ADEBF329E57A099A
+                        <a href="https://www.lynda.com/home/CertificateOfCompletion/PrintCertificate.aspx?lpk57=571693B493984560ADEBF329E57A099A">View Certificate</a>
+                    </li>
+                    <li>Certificate of Completion on Installing and Running WordPress: MAMP
+                        <br>
+                        Certificate No: C4B264
+                        https://www.lynda.com/home/CertificateOfCompletion/PrintCertificate.aspx?lpk57=C4B26419DF534707AB132310168FDDF5
+                    </li>
+                    <li>Certificate of Completion on WordPress Developer Tips: DRY Development
+                        Certificate No: 4C0345
+                        <a href="https://www.lynda.com/home/CertificateOfCompletion/PrintCertificate.aspx?lpk57=4C0345AABFAC48FBA539BAD1D843E669">View Certificate</a>
+                    </li>
+                    <li>Certificate of Completion on Learning Python
+                        <br>
+                        Certificate No: EFF472
+                        <a href="https://www.lynda.com/home/CertificateOfCompletion/PrintCertificate.aspx?lpk57=EFF4723A82174FE2BE4A4C7A818602DB">View Certificate</a>
+                    </li>
+                    <li>Certificate of Completion on Start a Business Online
+                        <br>
+                        Certificate No: 862D52
+                        <a href="https://www.lynda.com/home/CertificateOfCompletion/PrintCertificate.aspx?lpk57=862D52597DDA46AAA326B7366AEFE1FB">View Certificate</a>
+                    </li>
+                    <li>Certificate of Completion on Creating Your Sales Process
+                        <br>
+                        Certificate No: EEFCC8CCC70D43B5B009DF206564C2BC
+                        <a href="https://www.lynda.com/home/CertificateOfCompletion/PrintCertificate.aspx?lpk57=EEFCC8CCC70D43B5B009DF206564C2BC">View Certificate</a>
+                    </li>
+                    <li>Certificate of Completion on Learning Squarespace
+                        <br>
+                        Certificate No: 615644CF62AB478195394171FADA59F4
+                        <a href="https://www.lynda.com/home/CertificateOfCompletion/PrintCertificate.aspx?lpk57=615644CF62AB478195394171FADA59F4">View Certificate</a>
+                    </li>
+                    <li>Certificate of Completion on Learning Django
+                        <br>
+                        Certificate No: E041751C630C48FD934E30FB663F8C80
+                        <a href="https://www.lynda.com/home/CertificateOfCompletion/PrintCertificate.aspx?lpk57=E041751C630C48FD934E30FB663F8C80">View Certificate</a>
+                    </li>
+                    <li>Certificate of Completion on CSS Essential Training 1
+                        <br>
+                        Certificate No: D5E5EE73721DD4BB485F22CDA44F5896B
+                        <a href="https://www.lynda.com/home/CertificateOfCompletion/PrintCertificate.aspx?lpk57=5E5EE73721DD4BB485F22CDA44F5896B">View Certificate</a>
+                    </li>
+                </ul>
+            </div>
+        </section>
+    </main>
+    </body>
+    </html>
+{% endblock %}

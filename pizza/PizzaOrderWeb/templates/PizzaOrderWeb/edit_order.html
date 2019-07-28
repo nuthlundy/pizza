@@ -1,0 +1,14 @@
+
+{% extends 'PizzaOrderWeb/base.html'%}
+{% block 'body' %}
+<div class="container">
+<h1>Edit Pizza</h1>
+<h2>{{ note }}</h2>
+<form enctype="multipart/form-data"class="" action="{% url 'edit_order' pizza.id %}" method="post">
+<!-- <form enctype="multipart/form-data"class="" action="{% url 'order'%}" method="post"> -->
+  {% csrf_token %}
+  {{pizzaform}}
+  <input type="submit" name="" value="Edit Pizza">
+</form>
+</div>
+{% endblock %}
